@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250327022403">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<a href="#" class="header__logo">
+						<img src="img/icons/logo.svg" alt="">
+					</a>
+					<div class="header__menu menu">
+						<div class="menu__icon">
+							<div class="icon-menu">
+								<span></span>
+							</div>
+						</div>
+						<nav class="menu__body">
+							<ul>
+								<li>
+									<a data-goto=".about" data-goto-header href="#">О компании</a>
+								</li>
+								<li>
+									<a data-goto=".catalog" data-goto-header href="#">Продукция</a>
+								</li>
+								<li>
+									<a data-goto=".production" data-goto-header href="#">Производство</a>
+								</li>
+								<li>
+									<a data-goto=".cooperation-formats" data-goto-header href="#">Сотрудничество</a>
+								</li>
+								<li>
+									<a data-goto=".contacts" data-goto-header href="#">Контакты</a>
+								</li>
+								<li>
+									<a href="#">Блог</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__contacts contacts-header">
+						<div class="contacts-header__body">
+							<a href="tel:88002000600" class="contacts-header__phone">
+								<svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M13.5277 4.97625C13.5194 4.9755 13.5104 4.9755 13.5014 4.9755C13.1909 4.9755 12.9389 5.2275 12.9389 5.538C12.9389 5.83725 13.1729 6.0825 13.4684 6.09975H13.4699C16.1197 6.273 18.2032 8.4645 18.2032 11.142C18.2032 11.2815 18.1972 11.4195 18.1867 11.556L18.1882 11.538C18.1882 11.8485 18.4402 12.1005 18.7507 12.1005C19.0612 12.1005 19.3132 11.8485 19.3132 11.538C19.3199 11.4308 19.3237 11.3055 19.3237 11.1788C19.3237 7.89375 16.7759 5.2035 13.5487 4.977L13.5292 4.97625H13.5277ZM13.4722 2.06175C13.8089 2.07825 21.7207 2.57775 21.7207 11.538C21.7207 11.8485 21.9727 12.1005 22.2832 12.1005C22.5937 12.1005 22.8457 11.8485 22.8457 11.538C22.8569 11.3595 22.8637 11.1518 22.8637 10.9418C22.8637 5.6475 18.7604 1.311 13.5599 0.940501L13.5277 0.939001C13.5209 0.939001 13.5134 0.938251 13.5059 0.938251C13.2037 0.938251 12.9569 1.17375 12.9382 1.47075V1.47225C12.9374 1.4805 12.9374 1.49025 12.9374 1.5C12.9374 1.80075 13.1737 2.04675 13.4707 2.06175H13.4722ZM22.9777 17.3625C22.8959 16.8563 22.7272 16.4018 22.4872 15.9953L22.4969 16.0133C22.4114 15.8738 22.2712 15.7755 22.1062 15.7485L22.1032 15.7478L15.3764 14.6798C15.3502 14.6753 15.3194 14.673 15.2887 14.673C15.1334 14.673 14.9924 14.7353 14.8904 14.8365C14.3834 15.3465 13.9949 15.9735 13.7684 16.6748L13.7594 16.7078C10.7474 15.4778 8.4037 13.134 7.20295 10.2015L7.17445 10.1228C7.90795 9.88725 8.53495 9.498 9.0442 8.991C9.1462 8.889 9.2092 8.748 9.2092 8.59275C9.2092 8.562 9.20695 8.532 9.2017 8.50275L9.20245 8.50575L8.1337 1.779C8.1067 1.611 8.00845 1.47 7.87119 1.386L7.86895 1.3845C7.49019 1.15875 7.04844 0.993001 6.57594 0.915001L6.5542 0.912001C6.31795 0.859501 6.04645 0.828751 5.7682 0.828751C5.74944 0.828751 5.7307 0.828751 5.71195 0.829501H5.71494H5.71045C3.0877 0.847501 0.965945 2.97075 0.950195 5.59275V5.59425C0.961445 15.165 8.71644 22.9208 18.2864 22.932H18.2879C20.9129 22.9148 23.0362 20.7915 23.0534 18.1688V18.1673C23.0534 18.1523 23.0534 18.1343 23.0534 18.1163C23.0534 17.8493 23.0264 17.589 22.9739 17.3378L22.9784 17.3625H22.9777ZM18.2872 21.807C9.33745 21.7965 2.0857 14.544 2.0752 5.595C2.08945 3.59025 3.7117 1.968 5.7157 1.9545H5.7172C5.7292 1.9545 5.7442 1.9545 5.75845 1.9545C5.96245 1.9545 6.16119 1.977 6.3532 2.019L6.33519 2.01525C6.60969 2.06025 6.85644 2.136 7.08745 2.24025L7.0687 2.23275L8.0452 8.38425C7.5742 8.78025 6.9922 9.06 6.35245 9.17175L6.3307 9.17475C6.06445 9.22275 5.86569 9.45225 5.86569 9.729C5.86569 9.795 5.87695 9.858 5.89795 9.9165L5.89645 9.91275C7.22545 13.7168 10.1677 16.6582 13.8809 17.9595L13.9717 17.9873C14.0264 18.0068 14.0894 18.018 14.1554 18.018C14.4314 18.018 14.6609 17.8193 14.7082 17.5568L14.7089 17.553C14.8237 16.8915 15.1034 16.3095 15.5047 15.8318L15.5002 15.837L21.6509 16.8143C21.7507 17.0348 21.8287 17.2913 21.8729 17.5598L21.8752 17.5778C21.9097 17.742 21.9299 17.931 21.9299 18.1245C21.9299 18.138 21.9299 18.1508 21.9299 18.1643V18.162C21.9179 20.1683 20.2957 21.792 18.2909 21.8063H18.2894L18.2872 21.807Z" fill="#6C5545" />
+								</svg>
+								<span>8 800 2000 600</span>
+							</a>
+							<a href="#" class="contacts-header__button">Заказать звонок</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div data-watch class="page__main-home main-home">
+				<div class="main-home__container">
+					<div class="main-home__content">
+						<div data-watch data-watch-once class="main-home__body">
+							<div class="h1">
+								производство косметики
+								и бытовой химии
+							</div>
+							<div class="main-home__subtitle">
+								Создание рецептуры, упаковка и логистика продукции в срок от 14 дней, без рисков и
+								с гарантией качества
+							</div>
+							<a href="#" data-popup="#leave-request" class="main-home__button button">Оставить заявку</a>
+						</div>
+						<div data-watch data-watch-once class="main-home__images">
+							<picture><source srcset="img/main-home.webp" type="image/webp"><img src="img/main-home.png" alt="" class="main-home__image-1"></picture>
+							<picture><source srcset="img/main-home.webp" type="image/webp"><img src="img/main-home.png" alt="" class="main-home__image-2"></picture>
+						</div>
+						<div data-watch data-watch-once class="main-home__numbers">
+							<div class="main-home__number">
+								<div class="main-home__item">
+									<div class="main-home__num">10+</div>
+									<span>лет работы</span>
+								</div>
+							</div>
+							<div class="main-home__number">
+								<div class="main-home__item">
+									<div class="main-home__num">ISO</div>
+									<span>стандарт производства</span>
+								</div>
+							</div>
+							<div class="main-home__number">
+								<div class="main-home__item">
+									<div class="main-home__num">32 656</div>
+									<span>эксклюзивных рецептур</span>
+								</div>
+							</div>
+							<div class="main-home__number">
+								<div class="main-home__item">
+									<div class="main-home__num">100+</div>
+									<span>довольных клиентов</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="page__benefits benefits">
+				<div class="benefits__container">
+					<div data-watch data-watch-once class="benefits__titles">
+						<div class="h2">Изучите наши преимущества</div>
+						<div class="titles__subtitle">
+							Мы создаем продукт, а вы строите успешный бренд на нашем контрактном производстве без
+							рисков, в срок и с гарантией качества.
+						</div>
+					</div>
+					<div class="benefits__body">
+						<div data-watch data-watch-once class="benefits__column">
+							<div class="benefits__item">
+								<div class="benefits__number">{01}</div>
+								<div class="benefits__desc">
+									<div class="benefits__title">Выгодное сотрудничество</div>
+									<div class="benefits__subtitle">Минимальная партия — от 1000 единиц</div>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="benefits__column">
+							<div class="benefits__item">
+								<div class="benefits__number">{02}</div>
+								<div class="benefits__desc">
+									<div class="benefits__title">Собственное производство</div>
+									<div class="benefits__subtitle">Технологии и международные стандарты</div>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="benefits__column">
+							<div class="benefits__item">
+								<div class="benefits__number">{03}</div>
+								<div class="benefits__desc">
+									<div class="benefits__title">Проверенные контрагенты</div>
+									<div class="benefits__subtitle">Надежные поставщики тары и сырья</div>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="benefits__column">
+							<div class="benefits__item">
+								<div class="benefits__number">{04}</div>
+								<div class="benefits__desc">
+									<div class="benefits__title">Разработка под ключ</div>
+									<div class="benefits__subtitle">Производство и сертификация продукции</div>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="benefits__column">
+							<div class="benefits__item">
+								<div class="benefits__number">{05}</div>
+								<div class="benefits__desc">
+									<div class="benefits__title">Команда экспертов</div>
+									<div class="benefits__subtitle">Технологи, химики, маркетологи и дизайнеры</div>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="benefits__column">
+							<div class="benefits__item">
+								<div class="benefits__number">{06}</div>
+								<div class="benefits__desc">
+									<div class="benefits__title">Гарантия качества</div>
+									<div class="benefits__subtitle">Прозрачные процессы и четкие сроки</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="page__about about">
+				<div class="about__container">
+					<div data-watch data-watch-once class="about__titles titles">
+						<div class="h2">Познакомьтесь с нашей компанией</div>
+						<div class="titles__subtitle">
+							Мы — ваш надежный партнер на пути к успеху в косметическом бизнесе
+						</div>
+					</div>
+					<div class="about__content">
+						<div class="about__info">
+							<p>
+								<span>14 лет</span><br> сотрудничества с топовыми брендами
+							</p>
+						</div>
+						<div data-watch data-watch-once class="about__timeline">
+							<div data-watch data-watch-once class="about__event" data-year="2010">
+								<div data-watch data-watch-once class="about__circle about-event-left">
+									<Span>Основание компании</Span>
+									<div class="about__line-circle"></div>
+								</div>
+								<div class="about__line"></div>
+								<div class="about__year">2010 год</div>
+							</div>
+							<div data-watch data-watch-once class="about__event" data-year="2012">
+								<div data-watch data-watch-once class="about__circle about-event-left">
+									<span>Премия «Премия»</span>
+									<div class="about__line-circle"></div>
+								</div>
+								<div class="about__line"></div>
+								<div class="about__year">2012 год</div>
+								<div data-watch data-watch-once class="about__circle about-event-right">
+									<div class="about__line-circle"></div>
+									<span>Выпуск первого бренда</span>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="about__event" data-year="2015">
+								<div data-watch data-watch-once class="about__circle about-event-left">
+									<span>Премия «Премия»</span>
+									<div class="about__line-circle"></div>
+								</div>
+								<div class="about__line"></div>
+								<div class="about__year">2015 год</div>
+								<div data-watch data-watch-once class="about__circle about-event-right">
+									<div class="about__line-circle"></div>
+									<span>Премия «Премия»</span>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="about__event" data-year="2018">
+								<div data-watch data-watch-once class="about__circle about-event-left">
+									<span>Премия «Премия»</span>
+									<div class="about__line-circle"></div>
+								</div>
+								<div class="about__line"></div>
+								<div class="about__year">2018 год</div>
+								<div data-watch data-watch-once class="about__circle about-event-right">
+									<div class="about__line-circle"></div>
+									<span>Награждение бренда</span>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="about__event" data-year="2020">
+								<div data-watch data-watch-once class="about__circle about-event-left">
+									<span>Международный контракт</span>
+									<div class="about__line-circle"></div>
+								</div>
+								<div class="about__line"></div>
+								<div class="about__year">2020 год</div>
+								<div data-watch data-watch-once class="about__circle about-event-right">
+									<div class="about__line-circle"></div>
+									<span>Премия «Премия»</span>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="about__event" data-year="2023">
+								<div class="about__circle about-event-left">
+								</div>
+								<div class="about__line"></div>
+								<div class="about__year">2023 год</div>
+								<div data-watch data-watch-once class="about__circle about-event-right">
+									<div class="about__line-circle"></div>
+									<span>Значимое сотрудничество</span>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="about__event" data-year="2025">
+								<div class="about__circle about-event-left">
+								</div>
+								<div class="about__line"></div>
+								<div class="about__year">2025 год</div>
+								<div class="about__circle about-event-right">
+								</div>
+							</div>
+						</div>
+						<div class="about__slider swiper">
+							<div class="about__wrapper swiper-wrapper">
+								<div class="about__slide swiper-slide">
+									<div class="about__item">
+										<div class="about__title">{2010 год}</div>
+										<div class="about__subtitle">
+											<span>Основание компании</span>
+										</div>
+									</div>
+								</div>
+								<div class="about__slide swiper-slide">
+									<div class="about__item">
+										<div class="about__title">{2012 год}</div>
+										<div class="about__subtitle">
+											<span>Выпуск первого бренда</span>
+											<span>Премия «Премия»</span>
+										</div>
+									</div>
+								</div>
+								<div class="about__slide swiper-slide">
+									<div class="about__item">
+										<div class="about__title">{2015 год}</div>
+										<div class="about__subtitle">
+											<span>Премия «Премия»</span>
+											<span>Премия «Премия»</span>
+										</div>
+									</div>
+								</div>
+								<div class="about__slide swiper-slide">
+									<div class="about__item">
+										<div class="about__title">{2018 год}</div>
+										<div class="about__subtitle">
+											<span>Премия «Премия»</span>
+											<span>Награждение бренда</span>
+										</div>
+									</div>
+								</div>
+								<div class="about__slide swiper-slide">
+									<div class="about__item">
+										<div class="about__title">{2020 год}</div>
+										<div class="about__subtitle">
+											<span>Премия «Премия»</span>
+											<span>Международный контракт</span>
+										</div>
+									</div>
+								</div>
+								<div class="about__slide swiper-slide">
+									<div class="about__item">
+										<div class="about__title">{2023 год}</div>
+										<div class="about__subtitle">
+											<span>Значимое сотрудничество</span>
+										</div>
+									</div>
+								</div>
+								<div class="about__slide swiper-slide">
+									<div class="about__item">
+										<div class="about__title">{2025 год}</div>
+										<div class="about__subtitle">
+											<span>14 лет сотрудничества с топовыми брендами </span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="about__arrows arrows">
+							<div class="about__arrow-prev arrow-prev">
+								<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.665718 7.0551C0.275194 7.44562 0.275194 8.07879 0.665718 8.46931L7.02968 14.8333C7.4202 15.2238 8.05337 15.2238 8.44389 14.8333C8.83442 14.4428 8.83442 13.8096 8.44389 13.4191L2.78704 7.76221L8.44389 2.10535C8.83442 1.71483 8.83442 1.08166 8.44389 0.691139C8.05337 0.300615 7.4202 0.300615 7.02968 0.691139L0.665718 7.0551ZM1.37292 6.76221H1.37282L1.37282 8.76221H1.37292L1.37292 6.76221Z" fill="white" />
+								</svg>
+							</div>
+							<div class="about__arrow-next arrow-next">
+								<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8.79682 8.61436C9.17495 8.21183 9.15518 7.57897 8.75265 7.20084L2.19301 1.03876C1.79048 0.660622 1.15763 0.680398 0.77949 1.08293C0.401355 1.48546 0.421131 2.11832 0.823663 2.49645L6.65445 7.97386L1.17704 13.8046C0.798908 14.2072 0.818685 14.84 1.22122 15.2182C1.62375 15.5963 2.2566 15.5765 2.63474 15.174L8.79682 8.61436ZM8.09911 8.9292L8.09921 8.9292L8.03674 6.93017L8.03664 6.93018L8.09911 8.9292Z" fill="white" />
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="about__bottom">
+						<div data-watch data-watch-once class="about__bottom-item">
+							<div data-watch data-watch-once class="about__circle-1"></div>
+							<div data-watch data-watch-once class="about__circle-2"></div>
+							<div data-watch data-watch-once class="about__circle-3"></div>
+							<div data-watch data-watch-once class="about__circle-4"></div>
+							<p>
+								Наша миссия: cодействовать созданию успешных брендов, предоставляя комплексные решения с
+								фокусом на инновации и по оптимальной стоимости
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="page__catalog catalog">
+				<div class="catalog__container">
+					<div data-watch data-watch-once class="catalog__titles">
+						<div class="h2">Производим косметику и бытовую химию</div>
+						<div class="titles__subtitle">
+							Предлагаем широкий выбор продукции, адаптированной под ваши цели с возможностью
+							персонализации
+						</div>
+					</div>
+					<div data-watch data-watch-once class="catalog__body">
+						<div class="catalog__row">
+							<div data-watch data-watch-once class="catalog__column catalog-column-1">
+								<div class="catalog__item">
+									<picture><source srcset="img/catalog/image-1.webp" type="image/webp"><img loading="lazy" src="img/catalog/image-1.png" alt=""></picture>
+									<div class="catalog__label"><span>Косметика для лица</span></div>
+									<div class="catalog__desc">
+										<ul>
+											<li>
+												Кремы для лица
+											</li>
+											<li>Сыворотки для лица</li>
+											<li>Маски для лица (кремовые)</li>
+											<li>Лосьоны и тоники для лица.</li>
+											<li>
+												Продукты на основе гидролатов (цветочная вода) и мицеллярная вода
+											</li>
+											<li>
+												Средства для умывания и удаления макияжа (пены, гели, молочко, масло)
+											</li>
+										</ul>
+									</div>
+									<div class="catalog__arrow arrow-next">
+										<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.37232 8.59141C8.75046 8.18888 8.73068 7.55602 8.32815 7.17789L1.76851 1.01581C1.36598 0.637672 0.733127 0.657449 0.354991 1.05998C-0.023145 1.46251 -0.00336822 2.09537 0.399164 2.4735L6.22995 7.95091L0.752544 13.7817C0.374409 14.1842 0.394185 14.8171 0.796717 15.1952C1.19925 15.5734 1.8321 15.5536 2.21024 15.151L8.37232 8.59141ZM7.67461 8.90625L7.67471 8.90625L7.61224 6.90722L7.61214 6.90723L7.67461 8.90625Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="catalog__column catalog-column-2">
+								<div class="catalog__item">
+									<picture><source srcset="img/catalog/image-2.webp" type="image/webp"><img loading="lazy" src="img/catalog/image-2.png" alt=""></picture>
+									<div class="catalog__label"><span>Косметика для тела</span></div>
+									<div class="catalog__desc">
+										<ul>
+											<li>
+												Лосьоны, молочко, масла и кремы для тела
+											</li>
+											<li>
+												Скрабы для тела (сахарные, соляные, с кофе и маслами)
+											</li>
+											<li>
+												Кремы, гели, лосьоны для рук и ног
+											</li>
+											<li>
+												Увлажняющие спреи для тела и зоны декольте
+											</li>
+											<li>
+												Гели и крем-гели для душа.
+											</li>
+											<li>
+												Жидкая мыльная основа для ухода за кожей.
+											</li>
+											<li>
+												Пены и соли для ванн
+											</li>
+										</ul>
+									</div>
+									<div class="catalog__arrow arrow-next">
+										<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.37232 8.59141C8.75046 8.18888 8.73068 7.55602 8.32815 7.17789L1.76851 1.01581C1.36598 0.637672 0.733127 0.657449 0.354991 1.05998C-0.023145 1.46251 -0.00336822 2.09537 0.399164 2.4735L6.22995 7.95091L0.752544 13.7817C0.374409 14.1842 0.394185 14.8171 0.796717 15.1952C1.19925 15.5734 1.8321 15.5536 2.21024 15.151L8.37232 8.59141ZM7.67461 8.90625L7.67471 8.90625L7.61224 6.90722L7.61214 6.90723L7.67461 8.90625Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="catalog__column catalog-column-3">
+								<div class="catalog__item">
+									<picture><source srcset="img/catalog/image-3.webp" type="image/webp"><img loading="lazy" src="img/catalog/image-3.png" alt=""></picture>
+									<div class="catalog__label"><span>Косметика для губ</span></div>
+									<div class="catalog__desc">
+										<ul>
+											<li>
+												Бальзамы для губ (в твердых упаковках)
+											</li>
+											<li>
+												Увлажняющие гели или масла для губ
+											</li>
+											<li>
+												Скрабы для губ
+											</li>
+										</ul>
+									</div>
+									<div class="catalog__arrow arrow-next">
+										<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.37232 8.59141C8.75046 8.18888 8.73068 7.55602 8.32815 7.17789L1.76851 1.01581C1.36598 0.637672 0.733127 0.657449 0.354991 1.05998C-0.023145 1.46251 -0.00336822 2.09537 0.399164 2.4735L6.22995 7.95091L0.752544 13.7817C0.374409 14.1842 0.394185 14.8171 0.796717 15.1952C1.19925 15.5734 1.8321 15.5536 2.21024 15.151L8.37232 8.59141ZM7.67461 8.90625L7.67471 8.90625L7.61224 6.90722L7.61214 6.90723L7.67461 8.90625Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="catalog__column catalog-column-4">
+								<div class="catalog__item">
+									<picture><source srcset="img/catalog/image-4.webp" type="image/webp"><img loading="lazy" src="img/catalog/image-4.png" alt=""></picture>
+									<div class="catalog__label"><span>Солнцезащитная косметика </span></div>
+									<div class="catalog__desc">
+										<ul>
+											<li>
+												Кремы с SPF
+											</li>
+											<li>
+												Лосьоны и молочко после загара
+											</li>
+											<li>
+												Спреи или гели для защиты от солнца
+											</li>
+										</ul>
+									</div>
+									<div class="catalog__arrow arrow-next">
+										<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.37232 8.59141C8.75046 8.18888 8.73068 7.55602 8.32815 7.17789L1.76851 1.01581C1.36598 0.637672 0.733127 0.657449 0.354991 1.05998C-0.023145 1.46251 -0.00336822 2.09537 0.399164 2.4735L6.22995 7.95091L0.752544 13.7817C0.374409 14.1842 0.394185 14.8171 0.796717 15.1952C1.19925 15.5734 1.8321 15.5536 2.21024 15.151L8.37232 8.59141ZM7.67461 8.90625L7.67471 8.90625L7.61224 6.90722L7.61214 6.90723L7.67461 8.90625Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="packaging__row">
+							<div data-watch data-watch-once class="catalog__column catalog-column-5">
+								<div class="catalog__item">
+									<picture><source srcset="img/catalog/image-5.webp" type="image/webp"><img loading="lazy" src="img/catalog/image-5.png" alt=""></picture>
+									<div class="catalog__label"><span>Косметика для волос </span></div>
+									<div class="catalog__desc">
+										<ul>
+											<li>
+												Шампуни, кондиционеры, маски
+											</li>
+											<li>
+												Средства для восстановления и ухода несмываемые и смываемые
+											</li>
+											<li>
+												Средства для укрепления волос и против выпадения.
+											</li>
+										</ul>
+									</div>
+									<div class="catalog__arrow arrow-next">
+										<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.37232 8.59141C8.75046 8.18888 8.73068 7.55602 8.32815 7.17789L1.76851 1.01581C1.36598 0.637672 0.733127 0.657449 0.354991 1.05998C-0.023145 1.46251 -0.00336822 2.09537 0.399164 2.4735L6.22995 7.95091L0.752544 13.7817C0.374409 14.1842 0.394185 14.8171 0.796717 15.1952C1.19925 15.5734 1.8321 15.5536 2.21024 15.151L8.37232 8.59141ZM7.67461 8.90625L7.67471 8.90625L7.61224 6.90722L7.61214 6.90723L7.67461 8.90625Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="catalog__column catalog-column-6">
+								<div class="catalog__item">
+									<picture><source srcset="img/catalog/image-6.webp" type="image/webp"><img loading="lazy" src="img/catalog/image-6.png" alt=""></picture>
+									<div class="catalog__label"><span>Интимная косметика </span></div>
+									<div class="catalog__desc">
+										<ul>
+											<li>
+												Гели для интимной гигиены
+											</li>
+											<li>
+												Кремы для восстановления гидролипидного баланса
+											</li>
+										</ul>
+									</div>
+									<div class="catalog__arrow arrow-next">
+										<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.37232 8.59141C8.75046 8.18888 8.73068 7.55602 8.32815 7.17789L1.76851 1.01581C1.36598 0.637672 0.733127 0.657449 0.354991 1.05998C-0.023145 1.46251 -0.00336822 2.09537 0.399164 2.4735L6.22995 7.95091L0.752544 13.7817C0.374409 14.1842 0.394185 14.8171 0.796717 15.1952C1.19925 15.5734 1.8321 15.5536 2.21024 15.151L8.37232 8.59141ZM7.67461 8.90625L7.67471 8.90625L7.61224 6.90722L7.61214 6.90723L7.67461 8.90625Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="catalog__column catalog-column-7">
+								<div class="catalog__item">
+									<picture><source srcset="img/catalog/image-7.webp" type="image/webp"><img loading="lazy" src="img/catalog/image-7.png" alt=""></picture>
+									<div class="catalog__label"><span>Бытовая химия</span></div>
+									<div class="catalog__desc">
+										<ul>
+											<li>
+												Средства для стирки и ухода за одеждой
+											</li>
+											<li>
+												Пятновыводители
+											</li>
+											<li>
+												Средства для уборки
+											</li>
+											<li>
+												Средства для посуды
+											</li>
+											<li>Освежители воздуха</li>
+										</ul>
+									</div>
+									<div class="catalog__arrow arrow-next">
+										<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M8.37232 8.59141C8.75046 8.18888 8.73068 7.55602 8.32815 7.17789L1.76851 1.01581C1.36598 0.637672 0.733127 0.657449 0.354991 1.05998C-0.023145 1.46251 -0.00336822 2.09537 0.399164 2.4735L6.22995 7.95091L0.752544 13.7817C0.374409 14.1842 0.394185 14.8171 0.796717 15.1952C1.19925 15.5734 1.8321 15.5536 2.21024 15.151L8.37232 8.59141ZM7.67461 8.90625L7.67471 8.90625L7.61224 6.90722L7.61214 6.90723L7.67461 8.90625Z" fill="white" />
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="page__packaging packaging">
+				<div class="packaging__container">
+					<div data-watch data-watch-once class="packaging__titles titles">
+						<div class="h2">ПРЕДОСТАВИМ ПОДХОДЯЩУЮ УПАКОВКУ</div>
+						<div class="titles__subtitle">
+							Серийная и эксклюзивная разработка упаковки под ваш продукт
+						</div>
+					</div>
+					<div data-watch data-watch-once class="packaging__body">
+						<div class="packaging__row">
+							<div data-watch data-watch-once class="packaging__column packaging-column-1">
+								<div class="packaging__item">
+									<picture>
+										<source media="(max-width: 550px)" srcset="img/packaging/image-1-mob.png" type="image/png">
+										<source srcset="img/packaging/image-1.png" type="image/png">
+										<img src="img/packaging/image-1.png" alt="">
+									</picture>
+									<div class="packaging__label"><span>Флаконы</span></div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="packaging__column packaging-column-2">
+								<div class="packaging__item">
+									<picture>
+										<source media="(max-width: 550px)" srcset="img/packaging/image-2-mob.png" type="image/png">
+										<source srcset="img/packaging/image-2.png" type="image/png">
+										<img src="img/packaging/image-2.png" alt="">
+									</picture>
+									<div class="packaging__label"><span>Тубусы</span></div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="packaging__column packaging-column-3">
+								<div class="packaging__item">
+									<picture><source srcset="img/packaging/image-3.webp" type="image/webp"><img loading="lazy" src="img/packaging/image-3.png" alt=""></picture>
+									<div class="packaging__label"><span>Флаконы с дозатором</span></div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="packaging__column packaging-column-4">
+								<div class="packaging__item">
+									<picture>
+										<source media="(max-width: 550px)" srcset="img/packaging/image-4-mob.png" type="image/png">
+										<source srcset="img/packaging/image-4.png" type="image/png">
+										<img src="img/packaging/image-4.png" alt="">
+									</picture>
+									<div class="packaging__label"><span>Канистры</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="packaging__row">
+							<div data-watch data-watch-once class="packaging__column packaging-column-5">
+								<div class="packaging__item">
+									<picture><source srcset="img/packaging/image-5.webp" type="image/webp"><img loading="lazy" src="img/packaging/image-5.png" alt=""></picture>
+									<div class="packaging__label"><span>Банки</span></div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="packaging__column packaging-column-6">
+								<div class="packaging__item">
+									<picture><source srcset="img/packaging/image-6.webp" type="image/webp"><img loading="lazy" src="img/packaging/image-6.png" alt=""></picture>
+									<div class="packaging__label"><span>Флаконы с крышкой</span></div>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="packaging__column packaging-column-7">
+								<div class="packaging__item">
+									<picture>
+										<source media="(max-width: 550px)" srcset="img/packaging/image-7-mob.png" type="image/png">
+										<source srcset="img/packaging/image-7.png" type="image/png">
+										<img src="img/packaging/image-7.png" alt="">
+									</picture>
+									<div class="packaging__label"><span>И прочие виды тары</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-watch data-watch-once class="packaging__leave-request leave-request">
+						<div class="leave-request__item">
+							<p>
+								Узнайте условия производства вашего бренда – оставьте заявку, и наш менеджер вам
+								перезвонит.
+							</p>
+							<a href="#" data-popup="#leave-request" class="leave-request__button button">Оставить
+								заявку</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="page__production production">
+				<div class="production__container">
+					<div data-watch data-watch-once class="production__titles titles">
+						<div class="h2">Познакомьтесь с нашим производством</div>
+						<div class="titles__subtitle">
+							В компании есть собственные цеха полного цикла, где работают эксперты косметической
+							промышленности
+						</div>
+					</div>
+					<div class="production__content">
+						<div data-watch data-watch-once class="production__sliders">
+							<div class="production__slider swiper">
+								<div data-gallery class="production__wrapper swiper-wrapper">
+									<a href="img/production.png" class="production__slide swiper-slide">
+										<picture><source srcset="img/production.webp" type="image/webp"><img loading="lazy" src="img/production.png" alt=""></picture>
+									</a>
+									<a href="img/production.png" class="production__slide swiper-slide">
+										<picture><source srcset="img/production.webp" type="image/webp"><img loading="lazy" src="img/production.png" alt=""></picture>
+									</a>
+									<a href="img/production.png" class="production__slide swiper-slide">
+										<picture><source srcset="img/production.webp" type="image/webp"><img loading="lazy" src="img/production.png" alt=""></picture>
+									</a>
+									<a href="img/production.png" class="production__slide swiper-slide">
+										<picture><source srcset="img/production.webp" type="image/webp"><img loading="lazy" src="img/production.png" alt=""></picture>
+									</a>
+								</div>
+							</div>
+							<div class="production__arrows arrows">
+								<div class="production__arrow-prev arrow-prev">
+									<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.665718 7.0551C0.275194 7.44562 0.275194 8.07879 0.665718 8.46931L7.02968 14.8333C7.4202 15.2238 8.05337 15.2238 8.44389 14.8333C8.83442 14.4428 8.83442 13.8096 8.44389 13.4191L2.78704 7.76221L8.44389 2.10535C8.83442 1.71483 8.83442 1.08166 8.44389 0.691139C8.05337 0.300615 7.4202 0.300615 7.02968 0.691139L0.665718 7.0551ZM1.37292 6.76221H1.37282L1.37282 8.76221H1.37292L1.37292 6.76221Z" fill="white" />
+									</svg>
+								</div>
+								<div class="production__arrow-next arrow-next">
+									<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.79682 8.61436C9.17495 8.21183 9.15518 7.57897 8.75265 7.20084L2.19301 1.03876C1.79048 0.660622 1.15763 0.680398 0.77949 1.08293C0.401355 1.48546 0.421131 2.11832 0.823663 2.49645L6.65445 7.97386L1.17704 13.8046C0.798908 14.2072 0.818685 14.84 1.22122 15.2182C1.62375 15.5963 2.2566 15.5765 2.63474 15.174L8.79682 8.61436ZM8.09911 8.9292L8.09921 8.9292L8.03674 6.93017L8.03664 6.93018L8.09911 8.9292Z" fill="white" />
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="production__body">
+							<div class="production__list">
+								<ul>
+									<li data-watch data-watch-once>
+										<div class="production__circle"></div>
+										<div class="production__text">
+											<span>Своя лаборатория</span> для разработки и тестирования продуктов
+										</div>
+									</li>
+									<li data-watch data-watch-once>
+										<div class="production__circle"></div>
+										<div class="production__text">
+											<span>Сертификации продукции</span> мирового уровня ISO
+										</div>
+									</li>
+									<li data-watch data-watch-once>
+										<div class="production__circle"></div>
+										<div class="production__text">
+											<span>Гибкость:</span> учитываем ваши требования, сроки и бюджет
+										</div>
+									</li>
+									<li data-watch data-watch-once>
+										<div class="production__circle"></div>
+										<div class="production__text">
+											<span>Оперативность:</span> начинаем работу после подписания контракта
+										</div>
+									</li>
+									<li data-watch data-watch-once>
+										<div class="production__circle"></div>
+										<div class="production__text">
+											<span>3 уровня контроля качества:</span> сырья, производства и продукции
+										</div>
+									</li>
+									<li data-watch data-watch-once>
+										<div class="production__circle"></div>
+										<div class="production__text">
+											<span>Экологичность:</span> используем максимально бережные методы
+										</div>
+									</li>
+									<li data-watch data-watch-once>
+										<div class="production__circle"></div>
+										<div class="production__text">
+											<span>Новое оборудование:</span> быстрое и точное производство
+										</div>
+									</li>
+									<li data-watch data-watch-once>
+										<div class="production__circle"></div>
+										<div class="production__text">
+											<span>Только профессионалы:</span> строго отбираем специалистов
+										</div>
+									</li>
+								</ul>
+							</div>
+							<p data-da=".production__container, 991.98">
+								Мы с удовольствием предоставим самую современную аппаратуру и наших лучших экспертов,
+								чтобы создать ваш идеальный продукт!
+							</p>
+							<div data-da=".production__container, 991.98" class="production__numbers">
+								<div data-watch data-watch-once class="production__number">
+									<div class="production__num">200+</div>
+									<span>
+										собственных<br> SKU
+									</span>
+								</div>
+								<div data-watch data-watch-once class="production__number">
+									<div class="production__num">10 000 м²</div>
+									<span>
+										площадь<br> производства
+									</span>
+								</div>
+								<div data-watch data-watch-once class="production__number">
+									<div class="production__num">10 млн</div>
+									<span>
+										выпущенных<br> продуктов в год
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="page__how-we-work how-we-work">
+				<div class="how-we-work__container">
+					<div data-watch data-watch-once class="how-we-work__titles titles">
+						<div class="h2">Как мы работаем</div>
+						<div class="titles__subtitle">
+							Четыре шага от идеи до готовой продукции на полке — с контролем качества на каждом этапе
+						</div>
+					</div>
+					<div class="how-we-work__body">
+						<div data-watch data-watch-once class="how-we-work__slider swiper">
+							<div class="how-we-work__wrapper swiper-wrapper">
+								<div data-watch data-watch-once class="how-we-work__slide swiper-slide">
+									<div data-watch data-watch-once class="how-we-work__item">
+										<div class="how-we-work__image">
+											<picture><source srcset="img/work/image-1.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/work/image-1.png" alt=""></picture>
+										</div>
+										<div class="how-we-work__desc">
+											<div class="how-we-work__title">
+												Консультация
+												и заполнение брифа
+											</div>
+											<div class="how-we-work__subtitle">
+												Мы уточним важные моменты производства
+												и обсудим все тонкости
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="how-we-work__slide swiper-slide">
+									<div data-watch data-watch-once class="how-we-work__item">
+										<div class="how-we-work__image">
+											<picture><source srcset="img/work/image-2.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/work/image-2.png" alt=""></picture>
+										</div>
+										<div class="how-we-work__desc">
+											<div class="how-we-work__title">
+												Разработка формулы вашей косметики
+											</div>
+											<div class="how-we-work__subtitle">
+												Создадим уникальную формулу или используем
+												нашу рецептуру
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="how-we-work__slide swiper-slide">
+									<div data-watch data-watch-once class="how-we-work__item">
+										<div class="how-we-work__image">
+											<picture><source srcset="img/work/image-3.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/work/image-3.png" alt=""></picture>
+										</div>
+										<div class="how-we-work__desc">
+											<div class="how-we-work__title">
+												Производство образцов для тестирования
+											</div>
+											<div class="how-we-work__subtitle">
+												Перед выпуском мы должны убедиться,
+												что формула идеальна
+											</div>
+										</div>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="how-we-work__slide swiper-slide">
+									<div data-watch data-watch-once class="how-we-work__item">
+										<div class="how-we-work__image">
+											<picture><source srcset="img/work/image-4.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/work/image-4.png" alt=""></picture>
+										</div>
+										<div class="how-we-work__desc">
+											<div class="how-we-work__title">
+												Массовое производство и доставка
+											</div>
+											<div class="how-we-work__subtitle">
+												Готовую продукцию
+												мы упакуем и доставим
+												на ваш склад
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="how-we-work__arrows arrows">
+							<div class="how-we-work__arrow-prev arrow-prev">
+								<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.665718 7.0551C0.275194 7.44562 0.275194 8.07879 0.665718 8.46931L7.02968 14.8333C7.4202 15.2238 8.05337 15.2238 8.44389 14.8333C8.83442 14.4428 8.83442 13.8096 8.44389 13.4191L2.78704 7.76221L8.44389 2.10535C8.83442 1.71483 8.83442 1.08166 8.44389 0.691139C8.05337 0.300615 7.4202 0.300615 7.02968 0.691139L0.665718 7.0551ZM1.37292 6.76221H1.37282L1.37282 8.76221H1.37292L1.37292 6.76221Z" fill="white" />
+								</svg>
+							</div>
+							<div class="how-we-work__arrow-next arrow-next">
+								<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8.79682 8.61436C9.17495 8.21183 9.15518 7.57897 8.75265 7.20084L2.19301 1.03876C1.79048 0.660622 1.15763 0.680398 0.77949 1.08293C0.401355 1.48546 0.421131 2.11832 0.823663 2.49645L6.65445 7.97386L1.17704 13.8046C0.798908 14.2072 0.818685 14.84 1.22122 15.2182C1.62375 15.5963 2.2566 15.5765 2.63474 15.174L8.79682 8.61436ZM8.09911 8.9292L8.09921 8.9292L8.03674 6.93017L8.03664 6.93018L8.09911 8.9292Z" fill="white" />
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="page__cooperation-formats cooperation-formats">
+				<div class="cooperation-formats__container">
+					<div data-watch data-watch-once class="cooperation-formats__titles titles">
+						<div class="h2">Форматы сотрудничества</div>
+						<div class="titles__subtitle">
+							Четыре шага от идеи до готовой продукции на полке — с контролем качества на каждом этапе
+						</div>
+					</div>
+					<div class="cooperation-formats__body">
+						<div class="cooperation-formats__slider swiper">
+							<div class="cooperation-formats__wrapper swiper-wrapper">
+								<div data-watch data-watch-once class="cooperation-formats__slide swiper-slide">
+									<div data-watch data-watch-once class="cooperation-formats__item">
+										<div data-watch data-watch-once class="cooperation-formats__title">
+											Производство косметики по готовому рецепту
+										</div>
+										<div data-watch data-watch-once class="cooperation-formats__subtitle">
+											<p>
+												Предложим вам готовое решение, проверенное нашими экспертами.
+												Вы можете выбрать <span>из 1000+ формул.</span>
+											</p>
+											<p class="p-color">
+												Это наиболее <span>простой
+													и быстрый</span> способ выпустить ваш успешный
+												и качественный продукт.
+											</p>
+										</div>
+										<a href="#" data-popup="#leave-request" data-watch data-watch-once class="cooperation-formats__button button">Оставить заявку</a>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="cooperation-formats__slide swiper-slide">
+									<div data-watch data-watch-once class="cooperation-formats__item">
+										<div data-watch data-watch-once class="cooperation-formats__title">
+											Производство косметики
+											по готовому рецепту с доработками
+										</div>
+										<div data-watch data-watch-once class="cooperation-formats__subtitle">
+											<p>
+												Добавим <span>уникальные параметры</span> в готовую формулу, чтобы
+												создать новый
+												продукт
+												под ваш бренд.
+											</p>
+											<p class="p-color">
+												Идеальное решение для тех, кто хочет производить уникальный продукт
+												<span>по
+													оптимальной стоимости.</span>
+											</p>
+										</div>
+										<a href="#" data-popup="#leave-request" data-watch data-watch-once class="cooperation-formats__button button">Оставить заявку</a>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="cooperation-formats__slide swiper-slide">
+									<div data-watch data-watch-once class="cooperation-formats__item">
+										<div data-watch data-watch-once class="cooperation-formats__title">
+											разработка бренда с нуля (уникальная рецептура)
+										</div>
+										<div data-watch data-watch-once class="cooperation-formats__subtitle">
+											<p>
+												Выполним <span>полный комплекс</span> работ:
+												от исследования до выпуска вашего уникального продукта.
+											</p>
+											<p class="p-color">
+												Решение подойдет тем,
+												кто действительно ищет <span>индивидуальный подход</span>
+												для своего бренда.
+											</p>
+										</div>
+										<a href="#" data-popup="#leave-request" data-watch data-watch-once class="cooperation-formats__button button">Оставить заявку</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="cooperation-formats__arrows arrows">
+							<div class="cooperation-formats__arrow-prev arrow-prev">
+								<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.665718 7.0551C0.275194 7.44562 0.275194 8.07879 0.665718 8.46931L7.02968 14.8333C7.4202 15.2238 8.05337 15.2238 8.44389 14.8333C8.83442 14.4428 8.83442 13.8096 8.44389 13.4191L2.78704 7.76221L8.44389 2.10535C8.83442 1.71483 8.83442 1.08166 8.44389 0.691139C8.05337 0.300615 7.4202 0.300615 7.02968 0.691139L0.665718 7.0551ZM1.37292 6.76221H1.37282L1.37282 8.76221H1.37292L1.37292 6.76221Z" fill="white" />
+								</svg>
+							</div>
+							<div class="cooperation-formats__arrow-next arrow-next">
+								<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8.79682 8.61436C9.17495 8.21183 9.15518 7.57897 8.75265 7.20084L2.19301 1.03876C1.79048 0.660622 1.15763 0.680398 0.77949 1.08293C0.401355 1.48546 0.421131 2.11832 0.823663 2.49645L6.65445 7.97386L1.17704 13.8046C0.798908 14.2072 0.818685 14.84 1.22122 15.2182C1.62375 15.5963 2.2566 15.5765 2.63474 15.174L8.79682 8.61436ZM8.09911 8.9292L8.09921 8.9292L8.03674 6.93017L8.03664 6.93018L8.09911 8.9292Z" fill="white" />
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="page__partners partners">
+				<div class="partners__container">
+					<div data-watch data-watch-once class="partners__titles titles">
+						<div class="h2">Наши партнеры</div>
+						<div class="titles__subtitle">Нам доверяют лидеры рынка ритейла и косметической промышленности
+						</div>
+					</div>
+					<div data-watch data-watch-once class="partners__content">
+						<div class="partners__slider swiper">
+							<div class="partners__wrapper swiper-wrapper">
+								<div data-watch data-watch-once class="partners__slide swiper-slide">
+									<div class="partners__image">
+										<picture><source srcset="img/partners/image-1.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/partners/image-1.png" alt=""></picture>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="partners__slide swiper-slide">
+									<div class="partners__image">
+										<picture><source srcset="img/partners/image-2.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/partners/image-2.png" alt=""></picture>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="partners__slide swiper-slide">
+									<div class="partners__image">
+										<picture><source srcset="img/partners/image-3.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/partners/image-3.png" alt=""></picture>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="partners__slide swiper-slide">
+									<div class="partners__image">
+										<picture><source srcset="img/partners/image-4.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/partners/image-4.png" alt=""></picture>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="partners__slide swiper-slide">
+									<div class="partners__image">
+										<picture><source srcset="img/partners/image-5.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/partners/image-5.png" alt=""></picture>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="partners__slide swiper-slide">
+									<div class="partners__image">
+										<picture><source srcset="img/partners/image-6.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/partners/image-6.png" alt=""></picture>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="partners__slide swiper-slide">
+									<div class="partners__image">
+										<picture><source srcset="img/partners/image-7.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/partners/image-7.png" alt=""></picture>
+									</div>
+								</div>
+								<div data-watch data-watch-once class="partners__slide swiper-slide">
+									<div class="partners__image">
+										<picture><source srcset="img/partners/image-8.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/partners/image-8.png" alt=""></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="partners__arrows arrows">
+							<div class="partners__arrow-prev arrow-prev">
+								<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M0.665718 7.0551C0.275194 7.44562 0.275194 8.07879 0.665718 8.46931L7.02968 14.8333C7.4202 15.2238 8.05337 15.2238 8.44389 14.8333C8.83442 14.4428 8.83442 13.8096 8.44389 13.4191L2.78704 7.76221L8.44389 2.10535C8.83442 1.71483 8.83442 1.08166 8.44389 0.691139C8.05337 0.300615 7.4202 0.300615 7.02968 0.691139L0.665718 7.0551ZM1.37292 6.76221H1.37282L1.37282 8.76221H1.37292L1.37292 6.76221Z" fill="white" />
+								</svg>
+							</div>
+							<div class="partners__arrow-next arrow-next">
+								<svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M8.79682 8.61436C9.17495 8.21183 9.15518 7.57897 8.75265 7.20084L2.19301 1.03876C1.79048 0.660622 1.15763 0.680398 0.77949 1.08293C0.401355 1.48546 0.421131 2.11832 0.823663 2.49645L6.65445 7.97386L1.17704 13.8046C0.798908 14.2072 0.818685 14.84 1.22122 15.2182C1.62375 15.5963 2.2566 15.5765 2.63474 15.174L8.79682 8.61436ZM8.09911 8.9292L8.09921 8.9292L8.03674 6.93017L8.03664 6.93018L8.09911 8.9292Z" fill="white" />
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="page__faq faq">
+				<div class="faq__container">
+					<div data-watch data-watch-once class="faq__titles titles">
+						<div class="h2">Часто задаваемые вопросы</div>
+					</div>
+					<div class="faq__content">
+						<div data-watch data-watch-once class="faq__images">
+							<picture><source srcset="img/faq-image-1.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/faq-image-1.png" alt="" class="faq__image-1"></picture>
+							<picture><source srcset="img/faq-image-2.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/faq-image-2.png" alt="" class="faq__image-2"></picture>
+							<picture><source srcset="img/faq-image-3.webp" type="image/webp"><img data-watch data-watch-once loading="lazy" src="img/faq-image-3.png" alt="" class="faq__image-3"></picture>
+						</div>
+						<div data-watch data-watch-once data-spollers class="faq__spollers spollers">
+							<div data-watch data-watch-once class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									Вы используете натуральные составы?
+									<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.70721 8.70711C9.09773 8.31658 9.09773 7.68342 8.70721 7.29289L2.34325 0.928932C1.95272 0.538408 1.31956 0.538408 0.929032 0.928932C0.538508 1.31946 0.538508 1.95262 0.929032 2.34315L6.58589 8L0.929032 13.6569C0.538508 14.0474 0.538508 14.6805 0.929032 15.0711C1.31956 15.4616 1.95272 15.4616 2.34325 15.0711L8.70721 8.70711ZM8 9H8.0001V7H8V9Z" fill="#262626" />
+									</svg>
+								</button>
+								<div class="spollers__body">
+									<p>
+										Да, мы работаем с натуральными составами, которые тщательно разрабатываются в
+										лучших лабораториях совместно с нашими профессиональными экспертами.
+									</p>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									Где я могу посмотреть вашу документацию?
+									<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.70721 8.70711C9.09773 8.31658 9.09773 7.68342 8.70721 7.29289L2.34325 0.928932C1.95272 0.538408 1.31956 0.538408 0.929032 0.928932C0.538508 1.31946 0.538508 1.95262 0.929032 2.34315L6.58589 8L0.929032 13.6569C0.538508 14.0474 0.538508 14.6805 0.929032 15.0711C1.31956 15.4616 1.95272 15.4616 2.34325 15.0711L8.70721 8.70711ZM8 9H8.0001V7H8V9Z" fill="#262626" />
+									</svg>
+								</button>
+								<div class="spollers__body">
+									<p>
+										Да, мы работаем с натуральными составами, которые тщательно разрабатываются в
+										лучших лабораториях совместно с нашими профессиональными экспертами.
+									</p>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									Сколько времени нужно для разработки бренда?
+									<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.70721 8.70711C9.09773 8.31658 9.09773 7.68342 8.70721 7.29289L2.34325 0.928932C1.95272 0.538408 1.31956 0.538408 0.929032 0.928932C0.538508 1.31946 0.538508 1.95262 0.929032 2.34315L6.58589 8L0.929032 13.6569C0.538508 14.0474 0.538508 14.6805 0.929032 15.0711C1.31956 15.4616 1.95272 15.4616 2.34325 15.0711L8.70721 8.70711ZM8 9H8.0001V7H8V9Z" fill="#262626" />
+									</svg>
+								</button>
+								<div class="spollers__body">
+									<p>
+										Да, мы работаем с натуральными составами, которые тщательно разрабатываются в
+										лучших лабораториях совместно с нашими профессиональными экспертами.
+									</p>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									Какой бюджет мне понадобится?
+									<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.70721 8.70711C9.09773 8.31658 9.09773 7.68342 8.70721 7.29289L2.34325 0.928932C1.95272 0.538408 1.31956 0.538408 0.929032 0.928932C0.538508 1.31946 0.538508 1.95262 0.929032 2.34315L6.58589 8L0.929032 13.6569C0.538508 14.0474 0.538508 14.6805 0.929032 15.0711C1.31956 15.4616 1.95272 15.4616 2.34325 15.0711L8.70721 8.70711ZM8 9H8.0001V7H8V9Z" fill="#262626" />
+									</svg>
+								</button>
+								<div class="spollers__body">
+									<p>
+										Да, мы работаем с натуральными составами, которые тщательно разрабатываются в
+										лучших лабораториях совместно с нашими профессиональными экспертами.
+									</p>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									Есть ли у вас бесплатные образцы?
+									<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.70721 8.70711C9.09773 8.31658 9.09773 7.68342 8.70721 7.29289L2.34325 0.928932C1.95272 0.538408 1.31956 0.538408 0.929032 0.928932C0.538508 1.31946 0.538508 1.95262 0.929032 2.34315L6.58589 8L0.929032 13.6569C0.538508 14.0474 0.538508 14.6805 0.929032 15.0711C1.31956 15.4616 1.95272 15.4616 2.34325 15.0711L8.70721 8.70711ZM8 9H8.0001V7H8V9Z" fill="#262626" />
+									</svg>
+								</button>
+								<div class="spollers__body">
+									<p>
+										Да, мы работаем с натуральными составами, которые тщательно разрабатываются в
+										лучших лабораториях совместно с нашими профессиональными экспертами.
+									</p>
+								</div>
+							</div>
+							<div data-watch data-watch-once class="spollers__item">
+								<button type="button" data-spoller class="spollers__title">
+									Даете ли вы гарантию на производство?
+									<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.70721 8.70711C9.09773 8.31658 9.09773 7.68342 8.70721 7.29289L2.34325 0.928932C1.95272 0.538408 1.31956 0.538408 0.929032 0.928932C0.538508 1.31946 0.538508 1.95262 0.929032 2.34315L6.58589 8L0.929032 13.6569C0.538508 14.0474 0.538508 14.6805 0.929032 15.0711C1.31956 15.4616 1.95272 15.4616 2.34325 15.0711L8.70721 8.70711ZM8 9H8.0001V7H8V9Z" fill="#262626" />
+									</svg>
+								</button>
+								<div class="spollers__body">
+									<p>
+										Да, мы работаем с натуральными составами, которые тщательно разрабатываются в
+										лучших лабораториях совместно с нашими профессиональными экспертами.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-watch data-watch-once class="faq__leave-request leave-request">
+						<div class="leave-request__item">
+							<p>
+								Есть вопросы? Оставьте заявку — наш менеджер перезвонит и подробно проконсультирует вас.
+							</p>
+							<a href="#" data-popup="#leave-request" class="leave-request__button button">Оставить
+								заявку</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" class="page__contacts contacts">
+				<div class="contacts__container">
+					<div class="contacts__map">
+						<div data-watch data-watch-once class="contacts__content">
+							<div class="contacts__title">Наши контакты</div>
+							<div class="contacts__body">
+								<div data-watch data-watch-once class="contacts__column">
+									<svg width="13" height="28" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.13902 0.760742C10.2882 0.760742 12.9838 5.12154 11.1254 8.82919L6.54382 17.9832C6.37822 18.3236 5.89062 18.3236 5.71582 17.9832L1.13423 8.82919C-0.696569 5.12154 1.99903 0.760742 6.13902 0.760742Z" stroke="#A3654C" stroke-miterlimit="10" />
+										<path d="M3.59949 5.84877C3.59949 4.44117 4.7403 3.30957 6.1387 3.30957C7.5463 3.30957 8.6779 4.45037 8.6779 5.84877" stroke="#A3654C" stroke-miterlimit="10" stroke-linecap="round" />
+									</svg>
+									121087, Москва,
+									<br>
+									вн.тер.г. муниципальный округ Филевский парк, ул. Барклая,
+									<br>
+									д. 6, стр. 5
+								</div>
+								<a data-watch data-watch-once href="tel:88002000600" class="contacts__column">
+									<svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12.5403 4.35465C12.5331 4.35399 12.5253 4.35399 12.5174 4.35399C12.2457 4.35399 12.0252 4.57449 12.0252 4.84618C12.0252 5.10802 12.2299 5.32262 12.4885 5.33771H12.4898C14.8083 5.48931 16.6314 7.40687 16.6314 9.74968C16.6314 9.87174 16.6262 9.99249 16.617 10.1119L16.6183 10.0962C16.6183 10.3679 16.8388 10.5884 17.1105 10.5884C17.3822 10.5884 17.6027 10.3679 17.6027 10.0962C17.6086 10.0023 17.6118 9.89274 17.6118 9.78184C17.6118 6.90746 15.3826 4.55349 12.5587 4.35531L12.5417 4.35465H12.5403ZM12.4918 1.80446C12.7864 1.8189 19.7092 2.25596 19.7092 10.0962C19.7092 10.3679 19.9297 10.5884 20.2014 10.5884C20.4731 10.5884 20.6936 10.3679 20.6936 10.0962C20.7034 9.93999 20.7093 9.75821 20.7093 9.57446C20.7093 4.94199 17.119 1.14755 12.5686 0.823367L12.5403 0.822055C12.5344 0.822055 12.5279 0.821398 12.5213 0.821398C12.2568 0.821398 12.0409 1.02746 12.0245 1.28734V1.28865C12.0239 1.29587 12.0239 1.3044 12.0239 1.31293C12.0239 1.57609 12.2306 1.79134 12.4905 1.80446H12.4918ZM20.8091 15.1926C20.7376 14.7497 20.5899 14.352 20.3799 13.9963L20.3884 14.012C20.3136 13.89 20.1909 13.804 20.0465 13.7804L20.0439 13.7797L14.158 12.8452C14.135 12.8413 14.1081 12.8393 14.0812 12.8393C13.9454 12.8393 13.822 12.8938 13.7328 12.9824C13.2891 13.4286 12.9492 13.9772 12.751 14.5908L12.7431 14.6197C10.1076 13.5435 8.05685 11.4927 7.00619 8.92674L6.98125 8.85784C7.62307 8.65177 8.17169 8.31118 8.61728 7.86756C8.70653 7.77831 8.76166 7.65493 8.76166 7.51909C8.76166 7.49218 8.75969 7.46593 8.7551 7.44034L8.75575 7.44296L7.8206 1.55705C7.79697 1.41005 7.711 1.28668 7.59091 1.21318L7.58894 1.21187C7.25753 1.01434 6.871 0.869305 6.45757 0.801055L6.43853 0.79843C6.23182 0.752492 5.99425 0.725586 5.75078 0.725586C5.73438 0.725586 5.71797 0.725586 5.70157 0.726242H5.70419H5.70025C3.40535 0.741992 1.54882 2.59984 1.53503 4.89409V4.8954C1.54488 13.2698 8.3305 20.0561 16.7043 20.0659H16.7056C19.0024 20.0508 20.8603 18.193 20.8754 15.8981V15.8968C20.8754 15.8836 20.8754 15.8679 20.8754 15.8522C20.8754 15.6185 20.8518 15.3908 20.8058 15.171L20.8098 15.1926H20.8091ZM16.7049 19.0816C8.87388 19.0724 2.5286 12.7264 2.51941 4.89606C2.53188 3.1419 3.95135 1.72243 5.70485 1.71062H5.70616C5.71666 1.71062 5.72978 1.71062 5.74225 1.71062C5.92075 1.71062 6.09466 1.7303 6.26266 1.76705L6.24691 1.76377C6.4871 1.80315 6.703 1.86943 6.90513 1.96065L6.88872 1.95409L7.74316 7.33665C7.33103 7.68315 6.82178 7.92793 6.262 8.02571L6.24297 8.02834C6.01 8.07034 5.8361 8.27115 5.8361 8.51331C5.8361 8.57106 5.84594 8.62618 5.86432 8.67737L5.863 8.67409C7.02588 12.0026 9.60035 14.5764 12.8494 15.715L12.9288 15.7393C12.9768 15.7563 13.0319 15.7662 13.0896 15.7662C13.3311 15.7662 13.5319 15.5923 13.5733 15.3626L13.5739 15.3593C13.6743 14.7805 13.9191 14.2712 14.2702 13.8532L14.2663 13.8578L19.6482 14.7129C19.7355 14.9058 19.8037 15.1303 19.8424 15.3652L19.8444 15.381C19.8746 15.5247 19.8923 15.6901 19.8923 15.8594C19.8923 15.8712 19.8923 15.8823 19.8923 15.8941V15.8922C19.8818 17.6476 18.4623 19.0684 16.7082 19.0809H16.7069L16.7049 19.0816Z" fill="#A3654C" />
+									</svg>
+									8 800 2000 600
+								</a>
+								<a data-watch data-watch-once href="maitlo:stm@pravilnaya-kosmetika.ru" class="contacts__column">
+									<svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M8.85105 18.8234H17.6511C18.5846 18.8234 19.48 18.4525 20.1401 17.7924C20.8002 17.1322 21.1711 16.237 21.1711 15.3034V6.5034C21.1711 5.56984 20.8002 4.67446 20.1401 4.01433C19.48 3.3542 18.5846 2.9834 17.6511 2.9834H7.09104C6.15748 2.9834 5.26215 3.3542 4.60203 4.01433C3.94189 4.67446 3.57104 5.56984 3.57104 6.5034V10.9034" stroke="#A3654C" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M1.81262 16.1836H10.6126" stroke="#A3654C" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M1.81262 13.543H5.33262" stroke="#A3654C" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M20.467 4.76953C15.5302 14.1327 9.19425 14.1239 4.25745 4.76953" stroke="#A3654C" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									stm@pravilnaya-kosmetika.ru
+								</a>
+							</div>
+						</div>
+						<div class="contacts__map">
+							<div style="position:relative;overflow:hidden;"><a href="https://yandex.by/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.by/maps/213/moscow/house/ulitsa_barklaya_6s5/Z04YcwdoS0cOQFtvfXtyeH5mYQ==/?ll=37.508229%2C55.739255&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Барклая, 6с5 —
+									Яндекс Карты</a><iframe src="https://yandex.by/map-widget/v1/?ll=37.508229%2C55.739255&mode=whatshere&whatshere%5Bpoint%5D=37.508229%2C55.739255&whatshere%5Bzoom%5D=17&z=16" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__left">
+						<div class="footer__logos">
+							<a href="#" class="footer__logo">
+								<img loading="lazy" src="img/icons/logo-white.svg" alt="">
+							</a>
+							<span>
+								Контрактное производство косметики и бытовой химии
+							</span>
+						</div>
+					</div>
+					<div class="footer__menu">
+						<ul>
+							<li>
+								<a href="#">О компании</a>
+							</li>
+							<li>
+								<a href="#">Продукция</a>
+							</li>
+							<li>
+								<a href="#">Производство</a>
+							</li>
+							<li>
+								<a href="#">Этапы работы</a>
+							</li>
+							<li>
+								<a href="#">Тарифы</a>
+							</li>
+							<li>
+								<a href="#">Партнеры</a>
+							</li>
+							<li>
+								<a href="#">Вопросы</a>
+							</li>
+							<li>
+								<a href="#">Блог</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__right">
+						<div class="footer__info">
+							<span>ООО «Правильное решение»</span>
+							<span>ОГРН 1185053022769</span>
+							<span>ИНН 5032298741</span>
+						</div>
+						<a href="#" class="footer__policy">Политика конфиденциальности</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="leave-request" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12.0421 0.958496L0.95874 12.0418M0.958748 0.958496L12.0421 12.0418" stroke="black" stroke-width="1.1875" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</button>
+				<div class="popup__forms forms">
+					<div class="forms__titles">
+						<div class="forms__title">Заполните форму заявки</div>
+						<div class="forms__subtitle">Чтобы получить консультацию от наших специалистов и обсудить все
+							вопросы.</div>
+					</div>
+					<form data-dev data-popup-message="#thanks" action="#" class="forms__form form">
+						<div class="form__inputs">
+							<div class="form__input">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Введите ваше имя">
+							</div>
+							<div class="form__input">
+								<input data-required autocomplete="off" data-error="Обязательное поле" type="text" name="form[]" placeholder="+7 (___)___ - __ - __" class="telephone">
+							</div>
+						</div>
+						<button type="submit" class="form__button button">Получить консультацию</button>
+						<div class="form__checkbox checkbox">
+							<input data-required id="c_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+							<label for="c_1" class="checkbox__label">
+								<span class="checkbox__icon">
+									<svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1.72168 6.52009L6.57536 11.2001L16.2817 1.84009" stroke="#A3654C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</span>
+								<span class="checkbox__text">Нажимая на кнопку, вы принимаете условия <a href="#">политики
+										конфиденциальности</a>.</span>
+							</label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="thanks" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12.0421 0.958496L0.95874 12.0418M0.958748 0.958496L12.0421 12.0418" stroke="black" stroke-width="1.1875" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</button>
+				<div class="popup__forms forms">
+					<div class="forms__title">Спасибо!</div>
+					<div class="forms__subtitle">
+						Ваша заявка успешно отправлена!
+						<br>
+						Наш менеджер перезвонит вам
+						в течение 15 минут.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20250327022403"></script>
+</body>
+
+</html>
