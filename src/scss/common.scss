@@ -1,0 +1,198 @@
+.h1 {
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 127%;
+    text-transform: uppercase;
+    @media (max-width: $tablet) {
+        font-size: 39px;
+        color: #262626;
+    }
+    @media (max-width: $mobile) {
+        font-size: 26px;
+        line-height: 138%;
+    }
+}
+
+.h2 {
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 156%;
+    text-transform: uppercase;
+    text-align: center;
+    @media (max-width: $tablet) {
+        font-size: 29px;
+        line-height: 241%;
+    }
+    @media (max-width: $mobile) {
+        font-size: 22px;
+        line-height: 100%;
+    }
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    span {
+        font-weight: 700;
+    }
+    &.p-color {
+        background-color: rgb(163, 101, 76, 0.24);
+    }
+    @media (max-width: $tablet) {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+    }
+}
+
+.titles {
+    margin: 0px 0px 30px 0px;
+    transform: translate(0, 40%);
+    opacity: 0;
+    transition:
+        opacity 1.5s ease 0.2s,
+        transform 1.5s ease 0.2s;
+    &._watcher-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    @media (max-width: $tablet) {
+        margin: 0px 0px 13px 0px;
+    }
+    @media (max-width: $mobile) {
+        margin: 0px 0px 23px 0px;
+    }
+    // .titles__subtitle
+    &__subtitle {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        margin: 20px 0px 0px 0px;
+        @media (max-width: $tablet) {
+            font-size: 14px;
+            line-height: 214%;
+            margin: 0px 0px 0px 0px;
+        }
+        @media (max-width: $mobile) {
+            line-height: 171%;
+            margin: 17px 0px 0px 0px;
+        }
+    }
+}
+
+.arrows {
+    display: none;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+    @media (max-width: $mobile) {
+        display: flex;
+    }
+}
+.arrow-prev {
+    cursor: pointer;
+    width: 37px;
+    height: 37px;
+    flex: 0 0 37px;
+    background-color: $akcent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 11px 0px 0px;
+    transition: background-color 0.3s ease 0s;
+    z-index: 5;
+    &:hover {
+        background-color: $akcent-svetlyy;
+    }
+    svg {
+        margin: 0px 3px 0px 0px;
+    }
+    &.swiper-button-disabled {
+        background-color: #e2e2e4;
+    }
+}
+.arrow-next {
+    cursor: pointer;
+    width: 37px;
+    height: 37px;
+    flex: 0 0 37px;
+    background-color: $akcent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 11px;
+    transition: background-color 0.3s ease 0s;
+    z-index: 5;
+    svg {
+        margin: 0px 0px 0px 2px;
+    }
+    &:hover {
+        background-color: $akcent-svetlyy;
+    }
+    &.swiper-button-disabled {
+        background-color: #e2e2e4;
+    }
+}
+
+//========================================================================================================================================================
+
+//Оставить заявку
+.leave-request {
+    transform: translate(0, 40%);
+    opacity: 0;
+    transition:
+        opacity 1.5s ease 0.2s,
+        transform 1.5s ease 0.2s;
+    &._watcher-view {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+    // .leave-request__item
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 15px;
+        background-color: $akcent-svetlyy;
+        padding: 11px 80px;
+        @media (max-width: $tablet) {
+            padding: 15px 17px;
+        }
+        @media (max-width: $mobile) {
+            flex-direction: column;
+            justify-content: center;
+            padding: 16px 24px 24px 24px;
+        }
+        p {
+            color: $belyy;
+            margin: 0px 40px 0px 0px;
+            @media (max-width: $tablet) {
+                margin: 0px 20px 0px 0px;
+            }
+            @media (max-width: $mobile) {
+                text-align: center;
+                margin: 0px 0px 23px 0px;
+            }
+        }
+    }
+    // .leave-request__button
+    &__button {
+        color: $mainColor;
+        background-color: $belyy;
+        &:hover {
+            color: $belyy;
+            background-color: $akcent;
+        }
+        @media (max-width: $tablet) {
+            color: #000000;
+        }
+        @media (max-width: $mobile) {
+            width: 100%;
+        }
+    }
+}
