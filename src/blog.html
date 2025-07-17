@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Блог"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="page__filter-blog filter-blog">
+				<div class="filter-blog__container">
+					<div class="h1">Блог о правильной косметике</div>
+					<div class="filter-blog__filter">
+						<div data-watch data-watch-once class="filter-blog__navigation">
+							<div data-filter="all" class="filter-blog__title _active">
+								<span data-watch data-watch-once>Все</span>
+							</div>
+							<div data-filter="news" class="filter-blog__title">
+								<span data-watch data-watch-once>Новости</span>
+							</div>
+							<div data-filter="product" class="filter-blog__title">
+								<span data-watch data-watch-once>О продукции</span>
+							</div>
+							<div data-filter="business" class="filter-blog__title">
+								<span data-watch data-watch-once>О бизнесе</span>
+							</div>
+						</div>
+						<div class="filter-blog__content">
+							<div class="filter-blog__body">
+								<div data-watch data-watch-once class="filter-blog__column filter-blog__column_news">
+									<a href="#" class="filter-blog__item">
+										<div class="filter-blog__image">
+											<img data-watch data-watch-once loading="lazy" src="../img/blog/image-1.png"
+												alt="">
+										</div>
+										<div data-watch data-watch-once class="filter-blog__desc">
+											<div class="filter-blog__name">Новости</div>
+											<p>
+												19 января наш партнер Beautix получил первую косметическую награду
+											</p>
+										</div>
+									</a>
+								</div>
+								<div data-watch data-watch-once class="filter-blog__column filter-blog__column_product">
+									<a href="#" class="filter-blog__item">
+										<div class="filter-blog__image">
+											<img data-watch data-watch-once loading="lazy" src="../img/blog/image-2.png"
+												alt="">
+										</div>
+										<div data-watch data-watch-once class="filter-blog__desc">
+											<div class="filter-blog__name">О продукции</div>
+											<p>
+												Мы разрабатываем новую формулу с более экологичным составом
+											</p>
+										</div>
+									</a>
+								</div>
+								<div data-watch data-watch-once
+									class="filter-blog__column filter-blog__column_business">
+									<a href="#" class="filter-blog__item">
+										<div class="filter-blog__image">
+											<img data-watch data-watch-once loading="lazy" src="../img/blog/image-3.png"
+												alt="">
+										</div>
+										<div data-watch data-watch-once class="filter-blog__desc">
+											<div class="filter-blog__name">О бизнесе</div>
+											<p>
+												Как успешно продавать косметику на популярных маркетплейсах
+											</p>
+										</div>
+									</a>
+								</div>
+								<div data-watch data-watch-once
+									class="filter-blog__column filter-blog__column_business">
+									<a href="#" class="filter-blog__item">
+										<div class="filter-blog__image">
+											<img data-watch data-watch-once loading="lazy" src="../img/blog/image-4.png"
+												alt="">
+										</div>
+										<div data-watch data-watch-once class="filter-blog__desc">
+											<div class="filter-blog__name">О бизнесе</div>
+											<p>
+												Как разработать УТП для косметики: пошаговый рецепт от экспертов
+											</p>
+										</div>
+									</a>
+								</div>
+								<div data-watch data-watch-once class="filter-blog__column filter-blog__column_news">
+									<a href="#" class="filter-blog__item">
+										<div class="filter-blog__image">
+											<img data-watch data-watch-once loading="lazy" src="../img/blog/image-5.png"
+												alt="">
+										</div>
+										<div data-watch data-watch-once class="filter-blog__desc">
+											<div class="filter-blog__name">Новости</div>
+											<p>
+												Наша компания будет участвовать в конференции «Бизнес 2025»
+											</p>
+										</div>
+									</a>
+								</div>
+								<div data-watch data-watch-once class="filter-blog__column filter-blog__column_product">
+									<a href="#" class="filter-blog__item">
+										<div class="filter-blog__image">
+											<img data-watch data-watch-once loading="lazy" src="../img/blog/image-6.png"
+												alt="">
+										</div>
+										<div data-watch data-watch-once class="filter-blog__desc">
+											<div class="filter-blog__name">О продукции</div>
+											<p>
+												Чем отличаются гели для душа, и какой выгоднее производить
+											</p>
+										</div>
+									</a>
+								</div>
+							</div>
+							<button data-watch data-watch-once type="button" class="filter-blog__link">Загрузить
+								ещё</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>

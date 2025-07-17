@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Ошибка"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<div class="page__error error">
+				<div class="error__container">
+					<div data-watch data-watch-once class="error__content">
+						<div data-watch data-watch-once class="error__title">404</div>
+						<div data-watch data-watch-once class="error__subtitle">
+							СТРАНИЦА НЕ НАЙДЕНА
+						</div>
+						<p data-watch data-watch-once>
+							Возможно, адрес был набран неправильно, или эта страница больше не существует.
+						</p>
+						<a href="#" data-watch data-watch-once class="error__button button">Вернуться на главную</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
